@@ -1,0 +1,11 @@
+<nav class="nav">
+    <div class="nav-menu">
+        <img src="assets/instagram.png" class="logo-img" alt="">
+        <div class="menu-items">
+            <img src="assets/home.png" class="icon" alt="">
+            <div class="icon user-profile" *ngIf="user">
+                <img src="{{user.profilePic}}">
+            </div>
+        </div>
+    </div>
+</nav>

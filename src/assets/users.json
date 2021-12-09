@@ -1,0 +1,22 @@
+[{
+        "firstName": "John",
+        "lastName": "Martin",
+        "email": "john.martin@gmail.com",
+        "profilePic": "assets/profilePic2.jpg",
+        "id": 1
+    },
+    {
+        "firstName": "Jason",
+        "lastName": "Conway",
+        "email": "jason.conway@gmail.com",
+        "profilePic": "assets/profilePic3.jpg",
+        "id": 2
+    },
+    {
+        "firstName": "Sam",
+        "lastName": "Connor",
+        "email": "samconnor@gmail.com",
+        "profilePic": "assets/profilepic.jpg",
+        "id": 3
+    }
+]

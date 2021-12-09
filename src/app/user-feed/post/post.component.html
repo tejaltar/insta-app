@@ -1,0 +1,27 @@
+<div class="post-header">
+    <div class="user">
+        <div class="profile-pic"><img src="{{postData.user.profilePic}}" alt=""></div>
+        <p class="username">{{postData.user.firstName}}</p>
+    </div>
+</div>
+<img src="{{postData.img}}" class="post-image" alt="">
+<div class="post-content">
+    <div class="reaction-wrapper">
+        <img src="assets/like.png" class="reaction-icon" alt="">
+        <img src="assets/comment.png" class="reaction-icon" alt="">
+    </div>
+    <p class="post-likes">{{postData.likes}} likes</p>
+    <p class="post-description"><span>{{postData.user.firstName}} </span> {{postData.caption}} </p>
+</div>
+<div *ngFor="let comment of postData.comments">
+    <div>
+        <p class="post-description">
+            <span>{{comment.user.firstName}} </span> {{comment.text}}
+        </p>
+    </div>
+</div>
+<div class="comment-wrapper">
+    <img src="assets/smiley.jpg" class="reaction-icon" alt="">
+    <input type="text" class="comment-box" placeholder="Add a comment">
+    <button class="comment-btn">post</button>
+</div>

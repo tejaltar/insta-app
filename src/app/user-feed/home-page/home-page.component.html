@@ -1,0 +1,9 @@
+<section class="home-container">
+    <div class="home-wrapper">
+        <div class="left-side">
+            <div class="post" *ngFor="let post of posts">
+                <app-post [postData]="post"></app-post>
+            </div>
+        </div>
+    </div>
+</section>

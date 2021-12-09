@@ -1,0 +1,21 @@
+[{
+        "id": 1,
+        "user": 1,
+        "text": "Nice Pic!!"
+    },
+    {
+        "id": 2,
+        "user": 3,
+        "text": "blah blah!!"
+    },
+    {
+        "id": 3,
+        "user": 1,
+        "text": "instaready!!"
+    },
+    {
+        "id": 4,
+        "user": 3,
+        "text": "looking good!!"
+    }
+]
